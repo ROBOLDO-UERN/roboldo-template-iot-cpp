@@ -1,0 +1,11 @@
+name: IoT C/C++ CI/CD (ROBOLDO Template)
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  iot-ci:
+    uses: ROBOLDO-UERN/.github/.github/workflows/reusable-cpp-iot-ci.yml@main
